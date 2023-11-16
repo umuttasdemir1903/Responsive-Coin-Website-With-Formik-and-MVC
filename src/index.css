@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  background-color: #1d1d1d;
+  color: white;
+}
+
+button{
+  border: none;
+  outline: none;
+  padding: 7px 15px; 
+  border-radius:5px;
+  font-weight: bold;
+  transition: all .3s;
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+button:hover{
+  transform:scale(1.02);
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.container{
+  max-width: 700px;
+  margin: auto;
+  padding:0 40px ;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+form div{
+  position: relative;
+}
+
+form div span{
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  color: rgb(211, 0, 0);
+}
+
+form input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: none;
+  outline: none;
+}
+
+.active{
+  text-shadow: 0 0 5px white;
+  text-decoration: underline;
+}
+
+.up{
+  color: greenyellow !important;
+}
+
+.down{
+  color: red !important;
+}
+
+.coin{
+  cursor: pointer;;
+}
+
+.coin-card{
+  margin-top:15px ;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.coin-card:hover{
+  box-shadow: 0 0 20px gray;
+  transform:translate(5px,-5px);
+}
+
+.info-card{
+  box-shadow: 0 0 5px white !important;
+  background-color: #222222;
+}
+
+
+/* Button css */
+button {
+  position: relative;
+  padding: 10px 27px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 3px solid #ea8b19;
+  border-radius: 8px;
+  transition: all .3s ease-in-out;
+  color: white;
+  background: linear-gradient(30deg, #000 35%, #ea8b19 73%);
+}
+
+.star-1 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 20%;
+  left: 20%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+}
+
+.star-2 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 45%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-3 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 40%;
+  left: 40%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-4 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 20%;
+  left: 40%;
+  width: 8px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-5 {
+  position: absolute;
+  fill: #ea8b19;
+  top: 25%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ea8b19);
+  z-index: -5;
+  transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+
+
+button:hover {
+  background: #000;
+  color: #ea8b19;
+  box-shadow: 0 0 50px #ea8b19;
+}
+
+button:hover .star-1 {
+  position: absolute;
+  top: -110%;
+  left: -60%;
+  width: 30px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+button:hover .star-2 {
+  position: absolute;
+  top: -45%;
+  left: 0%;
+  width: 20px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+button:hover .star-3 {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  width: 11px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+button:hover .star-4 {
+  position: absolute;
+  top: 45%;
+  left: 85%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+button:hover .star-5 {
+  position: absolute;
+  top: 25%;
+  left: 140%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+button:hover .star-6 {
+  position: absolute;
+  top: -5%;
+  left: 60%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #ea8b19);
+  z-index: 2;
+}
+
+.fil0 {
+  fill: #ea8b19;
+}
+
+.box {
+  width: 120px;
+  height: 45px;
+  float: left;
+  transition: .5s linear;
+  position: relative;
+  display: block;
+  padding: 8px;
+  margin: -10px -15.5px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.box:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: white;
+  background: black;
+}
+
+.box:hover:before {
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .3s;
+}
+
+.box:hover:after {
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .5s;
+}
+
+.box:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.box:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
